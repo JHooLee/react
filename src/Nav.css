@@ -1,0 +1,30 @@
+.Button{
+    all: unset;
+    color: white;
+    background: tomato;
+    cursor: pointer;
+    height: 50px;
+    padding-Left: 10px;
+    padding-Right: 10px;
+    border-Radius: 5px;
+    font-Weight: bold;
+    text-align: center;
+
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.Button:hover{
+    background-color: salmon;
+
+}
+
+
+.nav-container{
+    text-align: right;
+    border-bottom: 3px groove salmon;
+}
