@@ -1,17 +1,21 @@
-import React from "react";
+import Button from './Button'
 
-function Word({r_word, r_seq, r_chi, r_pos, r_des, r_link}){
+function Word({handleRemove, w}){
+    const wordStyle= {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+    }
+    const onRemove = (e) => {
+        handleRemove(e)
+    }
     return(
-        <div className="item">
-            <div className="r_word">
-                <a href={r_link}><b>{r_word}</b> <sup>{r_seq? r_seq:""}</sup></a>
-                {r_chi}
-                <p class="r_content">{r_pos}
-                {r_des}
-                 </p>
-            </div>
+        <div style={wordStyle}>
+            <h2>{w.word}</h2>
+            <Button size="small" type="button" handleClick={(e)=>onRemove(e)}>
+                delete
+            </Button>
         </div>
     )
 }
-
-export default Word;
+export default Word

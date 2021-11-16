@@ -1,0 +1,16 @@
+.AppVideo {
+    margin-left: auto;
+    text-align: center;
+  }
+
+.v-control-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .video-container{
+    overflow: hidden;
+    margin: 0 auto;
+  }

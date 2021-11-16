@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// import AppVideo from './AppVideo'
+// import AppInput from './AppInput'
+// import AppLogin from './AppLogin'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <AppVideo/> */}
+    {/* <AppInput/> */}
+    {/* <AppLogin/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

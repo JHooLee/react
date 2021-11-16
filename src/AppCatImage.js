@@ -3,7 +3,7 @@ import './App.css';
 import animals from './DummyDataCat';
 // import logo from './logo.svg';
 
-class App extends Component{
+class AppCatImage extends Component{
   state = {
     count: 0
   }
@@ -34,4 +34,4 @@ class App extends Component{
 }
 
 
-export default App;
+export default AppCatImage;

@@ -2,7 +2,7 @@ import React, {Component}from 'react';
 import './App.css';
 import Button from './Button';
 
-class App extends Component{
+class AppButton extends Component{
   handleClick = () => {
     alert('clicked button')
   }

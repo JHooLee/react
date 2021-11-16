@@ -3,7 +3,7 @@ import './App.css';
 import words from './DummyData';
 // import logo from './logo.svg';
 
-class App extends Component{
+class AppWordCard extends Component{
   state = {
     index: 0
   }
@@ -45,4 +45,4 @@ class App extends Component{
 
   }
 }
-export default App;
+export default AppWordCard;

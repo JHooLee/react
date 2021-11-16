@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 // import logo from './logo.svg';
 
-class App extends Component{
+class AppLotto extends Component{
   state = {
     count: 0
   }
@@ -48,7 +48,7 @@ class App extends Component{
 }
 
 
-export default App;
+export default AppLotto;
 
 
 // import React, {Component} from 'react';

@@ -5,7 +5,7 @@ import Word from './Word'
 // import words from './kor_dic_db.json'
 // import logo from './logo.svg';
 
-class App extends Component{
+class AppWord extends Component{
   constructor(props){
     super(props)
     this.state = {
@@ -56,4 +56,4 @@ class App extends Component{
       }
     }
   }
-export default App;
+export default AppWord;
